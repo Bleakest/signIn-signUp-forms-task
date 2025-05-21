@@ -36,7 +36,7 @@ const SignIn = ({ onSubmit }: { onSubmit: onSubmitFunc }) => {
     return (
         <div className='flex justify-center items-center  mt-12 '>
             <form className='border-2 flex flex-col justify-center items-center p-4 rounded-lg w-[700px]' onSubmit={handleSubmit}>
-                <h1 className='mb-4 text-2xl'>Login</h1>
+                <h1 className='mb-4 text-2xl'>Логин</h1>
                 <div className='w-full max-w-md space-y-3'>
                     <InputField
                         name="email"
